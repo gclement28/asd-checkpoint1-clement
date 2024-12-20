@@ -1,5 +1,9 @@
 # asd-checkpoint1-clement
 
+# Mes retours
+
+J'ai perdu enormément de temps avec le premier script car mon .env générait des caractères indésirables et je n'arrivais donc pas a accéder correctement au token de connexion.
+
 # Questions sur le thème DevOps
 
 ## 5.1 Qu'est-ce que l'infrastructure as code (IaC) ?
