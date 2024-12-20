@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # This make sure that the .env is clean and does not have bad characters
 sed -i 's/\r$//' ../.env
 
@@ -15,7 +14,7 @@ create_ct() {
     local ISO="local-hdd-templates:vztmpl/debian-12-standard_12_amd64.tar.zst"
     local POOL="ASD-202410"
     local ROOTFS="local-nvme-datas:8"
-    local VM_NAME="debian12-group1-ct-$VMID"
+    local VM_NAME="debian12-ct-$VMID"
 
     # Create the container on proxmox
     curl -v -s -k -X POST \
