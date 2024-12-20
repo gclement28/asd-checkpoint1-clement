@@ -1,0 +1,40 @@
+# Binaries and compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test files
+*.test
+
+# Coverage reports
+*.out
+
+# Dependency directories
+vendor/
+
+# Bash-specific ignores
+.bash_history
+*_completion.bash
+*.bash_session
+
+# Editor-specific files (optional)
+*.swp
+*.swo
+*.orig
+*.~*~
+
+# Temporary files (optional)
+*.tmp
+*.bak
+
+# Logs
+*.log
+logs/
+
+# Env
+.env
+
+# SSH keys or sensitive files
+*.pem
+*.key
